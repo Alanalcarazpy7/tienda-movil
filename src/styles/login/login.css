@@ -1,0 +1,32 @@
+.contenedor-login{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#02010e ,40%,#0c1349);  
+}
+.contenedor-login-app{
+  background-color: rgb(209, 160, 13);
+  font-size: 20px;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-login input{
+  margin: 20px 0px;
+  border-radius: 15px;
+  padding: 0.5rem;
+  border: 0;
+  font-size: 18px;
+  background-color: rgb(209, 160, 13);
+  outline: none;
+  border-bottom: 2px solid white;
+  
+}
+
+.contenedor-login button{
+  margin-top: 1.7rem;
+  
+}

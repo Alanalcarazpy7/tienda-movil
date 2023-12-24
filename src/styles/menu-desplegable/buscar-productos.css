@@ -1,0 +1,72 @@
+.contenedor-buscar-producto{
+  height: 85vh;
+  background: linear-gradient(90deg, rgba(0,178,207,1) 0%, rgba(0,105,133,1) 100%);
+  margin: 1rem;
+  border-radius: 20px;
+}
+
+.contenedor-buscador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 22px;
+  color: white;
+}
+.contenedor-barra-productos{
+  overflow-y: auto;
+  max-height: 80%;
+  scrollbar-width: thick;
+}
+
+.barra-desplazadora-productos{
+  padding-right: 6px;
+}
+
+.atras-flecha{
+  color: white;
+}
+/* Estilo de la barra de desplazamiento 
+.contenedor-barra-productos::-webkit-scrollbar {
+  width: 12px;
+}*/
+
+/* Fondo de la barra de desplazamiento 
+.contenedor-barra-productos::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}*/
+
+/* Estilo del "mango" de la barra de desplazamiento 
+.contenedor-barra-productos::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 8px;
+}*/
+
+/* Color de fondo al pasar el ratón sobre la barra de desplazamiento 
+.contenedor-barra-productos::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+*/
+
+.contenedor-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  bottom: 5rem;
+  width: 100%;
+}
+
+.contenedor-items h4{
+  margin-right: 1rem;
+}
+
+.contenedor-items i{
+  font-size: 28px;
+  color: green;
+  background-color: white;
+  border-radius: 50%;
+}

@@ -1,0 +1,18 @@
+.contenedor-barra{
+  background-color: hsla(0, 0%, 72%, 0.804);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 1rem;
+  color: black;
+}
+
+.contenedor-iconos{
+  display: flex;
+}
+
+.contenedor-barra i{
+  padding: 0.5rem;
+  font-size: 20px;
+}

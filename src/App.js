@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import BarraInfo from './componets/barra-info-celular.jsx';
+import BuscarProducto from './pages/menu-desplegable/buscar-producto.jsx';
+import Login from './pages/auth/login.jsx';
+import TiendaPedidos from './pages/pedidos/tienda-pedidos.jsx';
+import FormularioUbicacion from './pages/formulario-ubicacion-mapa/formulario-ubicacion-mapa.jsx';
+import GestorCliente from './pages/gestor-cliente/gestor-cliente.jsx';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+        <Router>
+        
+        <BarraInfo />
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/tienda-pedidos" element={<TiendaPedidos />} />
+          <Route path="/buscar-productos" element={<BuscarProducto />}/>
+          <Route path="/tienda-map" element={<FormularioUbicacion/>} />
+          <Route path="/gestor-cliente" element={<GestorCliente/>} />
+        </Routes>
+      </Router>
     </div>
   );
 }

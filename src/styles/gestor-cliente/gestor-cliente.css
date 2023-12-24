@@ -1,0 +1,34 @@
+.contenedor-gestor-cliente{
+  margin: 1rem;
+  background-color: white;
+  font-size: 16px;
+  height: 85%;
+}
+.contenedor-tabla{
+  width: 100%;
+}
+.contenedor-informacion{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  
+}
+
+.contenedor-icon-personadd{
+  font-size: 30px;
+  display: flex;
+  margin: 10px 1.5rem;
+  position: fixed;
+  right: 0;
+  bottom: 80px;
+  
+}
+
+.contenedor-icon-personadd i{
+  color: white;
+  background-color: black;
+  padding: 0.7rem;
+  border-radius: 50px;
+}

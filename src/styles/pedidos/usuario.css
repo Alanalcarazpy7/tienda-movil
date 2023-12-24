@@ -1,0 +1,56 @@
+.contenedor-interfaz-usuario{
+  display: flex;
+  align-items: center;
+  color: white;
+  padding:0.5rem 1.2rem;
+  background: linear-gradient(90deg, rgba(0,126,134,1) 0%, rgba(9,156,84,1) 100%);
+  margin: 0.5rem;
+  border-radius:1rem;
+}
+
+.contenedor-imagen-usuario img{
+  height: 100px;
+  width: 100px;
+  border: 10px solid white;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 1rem;
+}
+
+.contenedor-info-usuario{
+  display: flex;
+  margin: 8px;
+  margin-left: 0;
+}
+
+.info-usuario{
+  margin-right: 5px;
+}
+
+.info-usuario p{
+  font-size: 9px;
+  margin: 5px 0;
+}
+.info-usuario h5{
+  font-size: 11px;
+  margin: 5px 0;
+}
+
+.info-cuenta-usuario{
+  margin-right: 25px;
+  
+}
+
+.info-cuenta-usuario p{
+  font-size: 11px;
+  
+}
+.info-cuenta-usuario h4{
+  font-size: 9px;
+  margin: 5px 0;
+}
+
+.info-productos-usuario p{
+  font-size: 8px;
+  margin: 5px 0;
+}

@@ -1,0 +1,18 @@
+.contenedor-barra-iconos {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-64%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin: 0.5rem 3rem;
+}
+
+.contenedor-barra-iconos a {
+  padding: 1rem 3rem;
+  font-size: 20px;
+}

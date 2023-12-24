@@ -1,0 +1,23 @@
+.contenedor-formulario-seleccionar{
+  display: flex;
+  margin: 0.7rem 0.2rem 0.7rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-formulario-seleccionar p{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 18px;
+  color: black;
+  width: 110px;
+  display: flex;
+  
+}
+
+.contenedor-formulario-seleccionar select{
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 18px;
+  outline: none;
+  flex: 1;
+}

@@ -1,0 +1,43 @@
+.contenedor-formulario-ubicacion-mapa{
+  margin: 0.7rem 1.2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contenedor-formulario-input{
+  margin:0.7rem 0.4rem;
+}
+
+.contenedor-titulo{
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  background-color: black;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  align-items: center;
+}
+
+.contenedor-titulo i{
+  color: red;
+  font-size: 30px;
+}
+
+.contenedor-boton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.boton-guardar{
+  background-color: rgb(25, 108, 185);
+  color: black;
+  border-radius: 50px;
+  position: absolute;
+  width: 30%;
+  height: 40px;
+  bottom: 4.5rem;
+  font-size: 20px;
+}
+

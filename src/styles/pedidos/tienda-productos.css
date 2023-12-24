@@ -1,0 +1,34 @@
+.tienda-productos{
+  height: 100%;
+}
+
+body{
+  background-color: rgb(209, 160, 13);
+}
+
+.contenedor-icon-plus{
+  font-size: 50px;
+  display: flex;
+  margin: 10px 1.5rem;
+  justify-content: flex-end;
+  position: fixed;
+  right: 0;
+  bottom: 80px;
+  
+}
+
+.contenedor-icon-plus i{
+  color: black;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-productos-deslizar{
+  overflow-y: auto;
+  max-height: 65%;
+}

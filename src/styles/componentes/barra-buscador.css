@@ -1,0 +1,38 @@
+.contenedor-buscar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 22px;
+  color: white;
+  
+}
+.contenedor-buscar div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  
+}
+
+.contenedor-buscar div input{
+  font-size: 22px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 4px;
+  outline: none;
+  
+}
+
+.contenedor-buscar input::placeholder {
+  font-size: 16px;
+  padding-left: 1rem;
+  
+}
+
+.contenedor-buscar div i{
+  
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 6px;
+}

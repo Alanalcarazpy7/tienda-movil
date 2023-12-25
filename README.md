@@ -12,3 +12,5 @@ Este proyecto es una aplicación web diseñada específicamente para dispositivo
 - **Bootstrap:** Un marco de diseño para facilitar el diseño y la creación de sitios web receptivos.
 - **npm:** El sistema de gestión de paquetes para JavaScript.
 - **Node.js:** Un entorno de ejecución para JavaScript del lado del servidor (solo se utilizo para poder ejecutarse la Tienda Web Movil).
+
+<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>

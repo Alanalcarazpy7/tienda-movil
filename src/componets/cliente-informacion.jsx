@@ -1,8 +1,7 @@
 import React from 'react'
+import "../styles/componentes/cliente-informacion.css";
 
 export default function ClienteInformacion(props) {
-
-  
 
   return (
     <tr className='contenedor-cliente-info'>
@@ -10,7 +9,7 @@ export default function ClienteInformacion(props) {
       <td>{props.telefono}</td>
       <td>{props.cedula}</td>
       <td><i class="bi bi-pencil-fill " onClick={props.onEditar}></i></td>
-      <td><i class="bi bi-trash" ></i></td>
+      <td><i class="bi bi-trash" onClick={props.onBorrar}></i></td>
     </tr>
   )
 }

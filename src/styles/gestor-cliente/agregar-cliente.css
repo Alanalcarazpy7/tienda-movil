@@ -1,0 +1,24 @@
+.contenedor-input-ingresar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(209, 160, 13);
+    padding: 1rem;
+  }
+  
+  .contenedor-input-ingresar input,.contenedor-input-ingresar button{
+    text-align: center;
+    margin: 0.3rem;
+    width: 12rem;
+    font-size: 14px;
+    outline: none;
+    border-radius: 10px;
+  }
+  .contenedor-input-ingresar button{
+    background: linear-gradient(#02010e ,40%,#0c1349);  
+    color: white;
+  }
+  

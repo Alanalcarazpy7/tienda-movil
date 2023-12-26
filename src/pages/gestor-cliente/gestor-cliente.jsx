@@ -6,19 +6,19 @@ import BarraBuscador from '../../componets/barra-buscador';
 import { useState } from 'react';
 import "../../styles/gestor-cliente/input-style.css";
 import AgregarClientes from './agregar-clientes';
+const clientes = [
+  { id:"1",nombre: 'Alan Alcaraz', telefono: '564651312', cedula: '070895465' },
+  { id:"2",nombre: 'Joel Montiel', telefono: '454545455', cedula: '987878545' },
+  { id:"3",nombre: 'Juan Pérez', telefono: '564651312', cedula: '070895465' },
+  { id:"4",nombre: 'María	García', telefono: '454545455', cedula: '987878545' },
+  { id:"5",nombre: 'Carlos Rodríguez', telefono: '564651312', cedula: '070895465' },
+  { id:"6",nombre: 'Ana	López', telefono: '454545455', cedula: '987878545' },
+  { id:"7",nombre: 'Laura	Martínez', telefono: '564651312', cedula: '070895465' },
+  { id:"8",nombre: 'Raquel Torres', telefono: '454545455', cedula: '987878545' },
+];
 
 export default function GestorCliente(props) {
-  const clientes = [
-    { id:"1",nombre: 'Alan Alcaraz', telefono: '564651312', cedula: '070895465' },
-    { id:"2",nombre: 'Joel Montiel', telefono: '454545455', cedula: '987878545' },
-    { id:"3",nombre: 'Juan Pérez', telefono: '564651312', cedula: '070895465' },
-    { id:"4",nombre: 'María	García', telefono: '454545455', cedula: '987878545' },
-    { id:"5",nombre: 'Carlos Rodríguez', telefono: '564651312', cedula: '070895465' },
-    { id:"6",nombre: 'Ana	López', telefono: '454545455', cedula: '987878545' },
-    { id:"7",nombre: 'Laura	Martínez', telefono: '564651312', cedula: '070895465' },
-    { id:"8",nombre: 'Raquel Torres', telefono: '454545455', cedula: '987878545' },
-  ];
-
+  
   const [enEdicion, setEnEdicion] = useState(false);
   const [cliente, setClientes] = useState(clientes);
   const [clienteSeleccionado, setClienteSeleccionado] = useState(clientes);
@@ -45,8 +45,9 @@ export default function GestorCliente(props) {
   const cambiarValor = () => {
     setClientes((prevClientes) =>
       prevClientes.map((cliente) =>
+
         cliente.id === clienteSeleccionado.id ? { ...cliente, ...clienteSeleccionado } : cliente
-      )
+      ),
     );
     setEnEdicion(false);
   };

@@ -5,14 +5,26 @@ import UbicacionSeleccionar from '../../componets/ubicacion-seleccionar'
 import "../../styles/formulario-ubicacion-mapa/formulario-ubicacion-mapa.css"
 import BarraBuscador from '../../componets/barra-buscador'
 import Maps from '../../componets/maps'
+import { useState } from 'react'
 
 export default function FormularioUbicacion() {
+  const [filtro, setfiltro] = useState("")
+
+  const filtroChange=(event)=>{
+    const nombreProducto=event.target.value;
+    setfiltro(nombreProducto)
+  }
+
+  const buscarUbicacion=(()=>{
+    return filtro;
+  })
+
   return (
     <div>
       <div className='contenedor-formulario-ubicacion-mapa'>
         <div className='contenedor-titulo'>
           <p>Personas</p>
-          <i class="bi bi-x"></i>
+          <i className="bi bi-x"></i>
         </div>
         <div className='contenedor-formulario-input'>
           <FormularioUsuario
@@ -42,8 +54,11 @@ export default function FormularioUbicacion() {
           <BarraBuscador
             texto={"Buscar por nombre del lugar"}
             backgroundColor="black"
+            filtroChange={filtroChange}
           />
-          <Maps/>
+          <Maps
+            ciudad={filtro}
+          />
         </div>
       </div>
       <div className='contenedor-boton'>

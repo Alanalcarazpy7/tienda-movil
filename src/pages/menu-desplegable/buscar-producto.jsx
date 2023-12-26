@@ -56,7 +56,6 @@ export default function BuscarProducto() {
     setproducData(productosFiltrados);
   };
 
-
   return (
     <div>
       <div className='contenedor-buscar-producto'>
@@ -89,8 +88,9 @@ export default function BuscarProducto() {
         </div>
         <div className='contenedor-items'>
           <h4>Items Seleccionados [{cantidadProductos()}]</h4>
-          <i class="bi bi-check-circle-fill"></i>
+          <i className="bi bi-check-circle-fill"></i>
         </div>
+        
       </div>
       <BarraDesplazarse
         mapa={false}

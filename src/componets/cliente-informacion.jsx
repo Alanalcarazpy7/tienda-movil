@@ -8,8 +8,8 @@ export default function ClienteInformacion(props) {
       <td>{props.nombre}</td>
       <td>{props.telefono}</td>
       <td>{props.cedula}</td>
-      <td><i class="bi bi-pencil-fill " onClick={props.onEditar}></i></td>
-      <td><i class="bi bi-trash" onClick={props.onBorrar}></i></td>
+      <td><i className="bi bi-pencil-fill " onClick={props.onEditar}></i></td>
+      <td><i className="bi bi-trash" onClick={props.onBorrar}></i></td>
     </tr>
   )
 }

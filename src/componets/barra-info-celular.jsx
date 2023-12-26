@@ -22,9 +22,9 @@ export default function BarraInfo() {
         <h4>{hora}</h4>
       </div>
       <div className='contenedor-iconos'>
-        <i class="bi bi-bar-chart-fill"></i>
-        <i class="bi bi-wifi"></i>
-        <i class="bi bi-battery-full"></i>
+        <i className="bi bi-bar-chart-fill"></i>
+        <i className="bi bi-wifi"></i>
+        <i className="bi bi-battery-full"></i>
       </div>
     </div>
   )

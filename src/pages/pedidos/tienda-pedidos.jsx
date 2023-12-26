@@ -82,7 +82,7 @@ export default function TiendaPedidos() {
         </div>
         <div className='contenedor-icon-plus'>
           <Link to="/buscar-productos">
-            <i class="bi bi-plus-circle-fill"></i>
+            <i className="bi bi-plus-circle-fill"></i>
           </Link>
         </div>
         <BarraDesplazarse
